@@ -15,3 +15,4 @@ MASA was invited to attend, in order to present its research program [TACTIC](ht
 <span class="caption text-muted">Laurent Collet-Billion, Head of the DGA, following a demonstration of TACTIC.</span>
 
 Source: MASA Group / Forum Innovation DGA
+
