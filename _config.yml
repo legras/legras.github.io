@@ -1,7 +1,7 @@
 # Site settings
-title: Deev Interaction on the web
-email: contact@deev-interaction.com
-description: News and projects from Deev Interaction
+title: François on the web
+email: legrasf@me.com
+description: News and projects from François Legras
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://legras.github.io" # the base hostname & protocol for your site
