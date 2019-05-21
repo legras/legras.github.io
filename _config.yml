@@ -20,7 +20,7 @@ title: "François Legras"
 description: "Independent UI/UX researcher."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://legras.github.io
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: /img/myface.jpeg
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200

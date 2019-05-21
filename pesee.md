@@ -10,7 +10,7 @@ Last modified: May 20, 2019
 
 # Information collection
 
-When you run *Pesée* ("App") we gather absolutely no information about you or your device. All your data stays on your phone or on Apple's HealthKit iCloud severs if you enabled it in the Health app.
+When you run *Pesée* ("App") we gather absolutely no information about you or your device. All your data stays on your phone or on Apple's HealthKit iCloud servers if you enabled it in the Health app.
 
 
 # Information storing
