@@ -17,7 +17,7 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "François Legras"
-description: "Independent UI/UX researcher."
+description: "Independent UX/UI researcher<br><a href='mailto:legrasf@me.com'>legrasf&#64;me.com</a>"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://legras.github.io
 logo: /img/myface.jpeg
@@ -87,10 +87,10 @@ defaults:
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
-  twitter:
+  name: François Legras
+  picture: /img/myface.jpeg
+  email: legrasf@me.com
+  twitter: legrasf
   links:
     - title:
       url:
