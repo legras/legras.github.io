@@ -13,10 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-# theme: jekyll-theme-so-simple
-
+#theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
+skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "François Legras"
 description: "Independent researcher<br><a href='mailto:legrasf@me.com'>legrasf&#64;me.com</a>"
@@ -26,7 +25,10 @@ logo: /img/myface.jpeg
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
-mathjax: # MathJax equations, e.g. true
+mathjax:
+  enable: # MathJax equations, e.g. true, false (default)
+  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  tags:  # "none", "ams" (default), "all"
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -36,7 +38,7 @@ google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: legrasf
+  username: # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -63,13 +65,13 @@ search_full_content: false # can have performance implications for large sites
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
-   - Gemfile
-   - Gemfile.lock
+#   - Gemfile
+#   - Gemfile.lock
 #   - node_modules
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 plugins:
   - jekyll-seo-tag
@@ -89,10 +91,10 @@ defaults:
 
 # Site Author
 author:
-  name: François Legras
-  picture: /img/myface.jpeg
-  email: legrasf@me.com
-  twitter: legrasf
+  name:
+  picture:
+  email:
+  twitter:
   links:
     - title:
       url:
